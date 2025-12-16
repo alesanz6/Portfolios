@@ -16,7 +16,7 @@ import ProjectCard from '../components/ProjectCard.astro';
 	</h2>
 
 	<p class="text-base sm:text-lg text-zinc-600 mt-6 max-w-xl animate-fadeInDelay" style="animation-delay: 0.6s;">
- 		Soy Técnico Superior en Desarrollo de Aplicaciones Multiplataforma (DAM) y Desarrollo de Aplicaciones Web (DAW), con especial interés en crear experiencias digitales modernas, accesibles y bien estructuradas. Actualmente trabajo con tecnologías como <strong>Astro</strong>, <strong>Tailwind CSS</strong> y <strong>JavaScript</strong>, y sigo ampliando mis conocimientos de forma constante.	
+ 		Soy Técnico Superior en Desarrollo de Aplicaciones Multiplataforma (DAM) y Desarrollo de Aplicaciones Web (DAW), con especial interés en crear experiencias digitales modernas, accesibles y bien estructuradas. Actualmente trabajo con tecnologías como <strong>Astro</strong>, <strong>Tailwind CSS</strong>, <strong>React</strong> y <strong>JavaScript</strong>, y sigo ampliando mis conocimientos de forma constante.	
 	</p>
 	<a href="#projects" class="inline-block mt-10 bg-[var(--color-accent)] text-white px-6 py-3 rounded-full font-medium shadow hover:bg-[var(--color-accent-light)] transition animate-fadeInDelay" style="animation-delay: 0.9s;">
 		Ver proyectos
@@ -60,6 +60,14 @@ import ProjectCard from '../components/ProjectCard.astro';
 			<a href="#" target="_blank" class="hover:underline">📂 GitHub</a>
 		</div>
 		</div> -->
+		<ProjectCard 
+		tittle="T-Under"
+		description = "E-commerce de ropa online con diseño responsivo, búsqueda avanzada, filtros dinámicos y carrito de compras, donde toda la información proviene de una API. Desarrollado con React y Vite"
+		tech={["React","Vite","HTML","CSS"]}
+		demoUrl="https://t-under.netlify.app/"
+		githubUrl="https://github.com/alesanz6/ecommerce.git"
+		imageUrl="/images/T-Under.png"
+		/>
 
 		<ProjectCard
 		title="Portafolio Personal"
